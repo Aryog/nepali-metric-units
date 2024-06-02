@@ -28,7 +28,7 @@ export const convertFromTheMetricArea = (n: number, metric: Units): ConversionRe
     
     return conversionResult;
 }
-console.log(convertFromTheMetricArea(1,"bigha"))
+// console.log(convertFromTheMetricArea(1,"bigha"))
 
 // Specific conversion 
 export const specificConvertFromTheMetricArea = (n: number, dataMetric: Units, targetMetric: Units): Record<string, number> | null => {
