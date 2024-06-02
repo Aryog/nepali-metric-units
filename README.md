@@ -17,5 +17,5 @@
 To install the package, use the following command:
 
 ```bash
-npm install my-npm-package
+npm install nepali-metric-units
 ```
