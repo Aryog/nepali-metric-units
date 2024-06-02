@@ -1,23 +1,32 @@
 {
   "name": "nepali_metrics",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This project creates an npm package for converting numbers to words, area, length etc.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    
     "build": "tsc",
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Yogesh Aryal yogesh000aryal@gmail.com (https://aryalyogesh.com.np)",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.13.0",
+    "eslint": "^9.4.0",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.4",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "@types/jest": "^29.5.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aryog/nepali_metric_units.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aryog/nepali_metric_units/issues"
+  },
+  "homepage": "https://github.com/Aryog/nepali_metric_units#readme"
 }
