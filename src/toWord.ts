@@ -58,7 +58,7 @@ import { nepaliWords } from "./utils";
     }
   };
 
-  
-  
+console.log(digitToWord(100));
+console.log(digitToWord(1000));
+console.log(digitToWord(10000));
 
-  
