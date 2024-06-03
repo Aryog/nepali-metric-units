@@ -13,7 +13,16 @@ const columnHeadings:Array<Units> = [
     'sq.meter',
   ];
   
+
 // All Conversion
+
+/**
+ * 
+ * @param n 
+ * @param metric 
+ * @returns 
+ */
+
 export const convertFromTheMetricArea = (n: number, metric: Units): ConversionResult => {
     const absoluteN = Math.abs(n);
     const metricIndex = columnHeadings.indexOf(metric);
@@ -31,7 +40,14 @@ export const convertFromTheMetricArea = (n: number, metric: Units): ConversionRe
 console.log(convertFromTheMetricArea(1,"bigha"))
 console.log(convertFromTheMetricArea(-1,"bigha"))
 
-// Specific conversion 
+// Specific conversion
+/**
+ * 
+ * @param n 
+ * @param dataMetric 
+ * @param targetMetric 
+ * @returns 
+ */ 
 export const specificConvertFromTheMetricArea = (n: number, dataMetric: Units, targetMetric: Units): Record<string, number> | null => {
     const absoluteN = Math.abs(n);
     const dataMetricIndex = columnHeadings.indexOf(dataMetric);
