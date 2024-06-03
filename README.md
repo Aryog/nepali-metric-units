@@ -26,6 +26,12 @@ npm install nepali_metric
 To use the package, use the following code
 
 _For the Area conversion to all available units_
+| Unit | Unit | Unit |
+|------|------|------|
+| 'khetmuri' | 'bigha' | 'kattha' |
+| 'dhur' | 'ropani' | 'aana' |
+| 'paisa' | 'daam' | 'sq.feet' |
+| 'sq.meter' | | |
 
 ```js
 const { convertFromTheMetricArea } = require("nepali_metrics");
@@ -41,6 +47,8 @@ console.log(specificConvertFromTheMetricArea(10, "kattha", "ropani"));
 ```
 
 _For the nepali digit to word conversion_
+
+### Upto _महासंख_
 
 ```js
 const { digitToWord } = require("nepali_metrics");
