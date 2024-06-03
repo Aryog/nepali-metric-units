@@ -67,3 +67,6 @@ const digitToWord = (n) => {
     }
 };
 exports.digitToWord = digitToWord;
+console.log((0, exports.digitToWord)(100));
+console.log((0, exports.digitToWord)(1000));
+console.log((0, exports.digitToWord)(10000));
