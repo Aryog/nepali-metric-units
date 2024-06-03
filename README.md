@@ -1,7 +1,7 @@
 # My NPM Package
 
 ![Build Status](https://github.com/Aryog/nepali-metric-units/workflows/Node.js%20CI/badge.svg)
-[![npm version](https://badge.fury.io/js/nepali-metric-units.svg)](https://badge.fury.io/js/nepali-metric-units)
+[![npm version](https://badge.fury.io/js/nepali-metrics.svg)](https://badge.fury.io/js/nepali-metrics)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
