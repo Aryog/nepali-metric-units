@@ -24,24 +24,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - run: npm install
-
-      - name: Debug before build
-        run: |
-          echo "Starting build..."
-          df -h
-          free -m
-          top -b -n 1
-          npm run build
-
-      - name: Run build
-        run: npm run build
-
-      - name: Debug after build
-        run: |
-          echo "Build finished."
-          df -h
-          free -m
-          top -b -n 1
+      - run: npm run build
+      - run: npm test
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v3
