@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Aryog/nepali-metric-units/compare/v1.0.0...v1.0.1) (2024-06-03)
+
+
+### Bug Fixes
+
+* build on release ([be7d8eb](https://github.com/Aryog/nepali-metric-units/commit/be7d8ebe30eaeb7ba43429ada5a415c7a5504fa6))
+
 # 1.0.0 (2024-06-03)
 
 
