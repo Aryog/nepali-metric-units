@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/Aryog/nepali_metric_units/compare/v1.0.6...v1.0.7) (2024-06-03)
+
+
+### Bug Fixes
+
+* updated build ([d96744c](https://github.com/Aryog/nepali_metric_units/commit/d96744cb3bd667300915c0540a8a61689855aa6b))
+
+
+
 ## [1.0.6](https://github.com/Aryog/nepali_metric_units/compare/v1.0.5...v1.0.6) (2024-06-03)
 
 
@@ -32,18 +41,6 @@
 ### Bug Fixes
 
 * updated readme ([f77858a](https://github.com/Aryog/nepali_metric_units/commit/f77858a74328b5fbfea9eda60deaf388744427ef))
-
-
-
-## [1.0.2](https://github.com/Aryog/nepali_metric_units/compare/v1.0.1...v1.0.2) (2024-06-03)
-
-
-### Bug Fixes
-
-* build on release ([fd72b0a](https://github.com/Aryog/nepali_metric_units/commit/fd72b0a29e9b85fd7ffcea3d6e0ab42b87a9d9fe))
-* continue on build fail ([ceb1519](https://github.com/Aryog/nepali_metric_units/commit/ceb1519d67782bc45c414235ad6aa496ba45b6f0))
-* Fixed a typo in index.js ([e67d5ee](https://github.com/Aryog/nepali_metric_units/commit/e67d5ee27129074c545ad899a4d0a534bcdc9a53))
-* updated ci ([d50ad96](https://github.com/Aryog/nepali_metric_units/commit/d50ad9695ef95b8c30e72cdd0357d2614a9b97ba))
 
 
 
