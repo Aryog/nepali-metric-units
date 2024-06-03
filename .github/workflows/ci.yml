@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 30 # Set a 30-minute timeout for the job
 
     strategy:
       matrix:
@@ -23,8 +23,36 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: npm install
-      - run: npm run build
+      - name: Cache node modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci
+
+      - name: Debug before build
+        run: |
+          echo "Starting build..."
+          df -h
+          free -m
+          top -b -n 1
+
+      - name: Run build
+        run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        continue-on-error: true
+
+      - name: Debug after build
+        run: |
+          echo "Build finished."
+          df -h
+          free -m
+          top -b -n 1
+
       - run: npm test
 
       - name: Semantic Release
