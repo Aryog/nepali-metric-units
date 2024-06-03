@@ -19,3 +19,19 @@ To install the package, use the following command:
 ```bash
 npm install nepali-metric-units
 ```
+
+```bash
+npx semantic-release --dry-run --no-ci
+```
+
+```bash
+npx ts-node src/areaConvert.ts
+```
+
+```bash
+npm run test
+```
+
+```bash
+npm run build
+```
